@@ -19,12 +19,6 @@
     "cypress:edge": "cypress run -b edge",
     "cypress:open": "cypress open"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -43,6 +37,7 @@
     "@swc/core": "^1.2.146",
     "@swc/jest": "^0.2.20",
     "cypress": "^9.5.0",
+    "eslint-config-airbnb": "^19.0.4",
     "jest": "^27.5.1"
   }
 }
